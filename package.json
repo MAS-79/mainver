@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --watch backend --exec babel-node backend/server.js"
-    
-    
+    "start": "nodemon --watch backend --exec babel-node backend/server.js",
+    "dev": "backend/server.js"
     
     
   },
